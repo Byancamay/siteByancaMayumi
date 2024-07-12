@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/layout.css">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link rel="shortcut icon" href="../imagens/Logo.png" type="image/x-icon">
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="layout">
+        <header>
+            <figure>
+                <img src="../imagens/Logo.png" alt="Logo">
+            </figure>
+            <h1>Maby</h1>
+            
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Campeões</a></li>
+                <li><a href="páginas/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="formulario">
+            <h2>Formulário de Contatos</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" id="name" required>
+                <label for="name">Nome*</label><br>
+
+                  <input type="email" name="email" id="email" required>
+                 <label for="email">Email*</label><br>
+
+                 <input type="tel" name="tel" id="tel" required>
+                 <label for="tel">Telefone</label><br>
+
+                 <input type="text" name="endereco" id="endereco" required>
+                  <label for="endereco">Endereço</label><br>
+
+                 <input type="date" name="date" id="date" required>
+                 <label for="date">Data de Nascimento</label><br>
+
+                <label for="conheceu">Onde nos conheceu?</label>
+                <select name="conheceu" id="conheceu">
+                            <option value="amigos">amigos</option>
+                             <option value="familia">família</option>
+                            <option value="instagram">instagram</option>
+                            <option value="tiktok">tiktok</option>
+                            <option value="outros">outros</option>
+                    
+                </select><br>
+
+                <input type="text" name="mensagem" id="mensagem">
+                <label for="mensagem">Mensagem</label><br>
+
+                <input type="checkbox" name="msg" id="msg">
+                <label for="msg">Deseja receber novidades?</label>
+
+                <input type="button" value="enviar" id="enviar">
+
+            </form>
+        </section>
+    <footer>Feito por <a href="http://instagram/byancamay1/">"Byanca Mayumi"</a></footer>
+    </section>
+</body>
+</html>
